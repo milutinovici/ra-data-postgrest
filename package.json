@@ -27,15 +27,15 @@
         "prepare": "install-peers"
     },
     "dependencies": {
-        "query-string": "^5.1.1"
+        "query-string": "^7.1.1"
     },
     "devDependencies": {
-        "cross-env": "^5.2.0",
+        "cross-env": "^7.0.3",
         "install-peers-cli": "^2.2.0",
-        "rimraf": "^2.6.3",
-        "typescript": "^3.9.5"
+        "rimraf": "^3.0.2",
+        "typescript": "^4.5.5"
     },
     "peerDependencies": {
-        "ra-core": "^3.19.6"
+        "ra-core": "^4.0.0-beta.1.0"
     }
 }
