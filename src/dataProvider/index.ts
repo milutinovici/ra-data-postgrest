@@ -53,6 +53,9 @@ function parseFilters(filter, defaultListOp) {
     }
 
     values.forEach(value => {
+      if(value === "") {
+        return;
+      }
       // if operator is intentionally blank, rpc syntax 
       let op = operation.includes('like') ? `${operation}.*${value}*` : operation.length == 0 ? `${value}` : `${operation}.${value}`;
 
